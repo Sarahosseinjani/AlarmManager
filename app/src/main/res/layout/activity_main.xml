@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvSelectedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    <Button
+        android:id="@+id/btnSelectTime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Select time" />
+    <Button android:id="@+id/btnSetAlarm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="set alarm" />
+    <Button
+        android:id="@+id/btnCancelAlarm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="cancel alarm" />
+</LinearLayout>
